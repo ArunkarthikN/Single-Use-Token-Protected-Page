@@ -12,3 +12,45 @@ This project is a simple Flask application that generates a unique, single-use t
 * Flask
 
 **Installation**
+
+**1. Clone the repository:**
+
+```sh
+git clone https://github.com/ArunkarthikN/Single-Use-Token-Protected-Page.git
+cd single-use-token-protected-page
+
+```
+
+**2. Create and activate a virtual environment:**
+
+```sh
+python -m venv venv
+source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+
+
+```
+
+**For Linux:**
+
+```sh
+apt install python3.12-venv
+python3 -m venv /path/to/venv
+source /path/to/venv/bin/activate
+```
+
+**3. Install the required packages:**
+
+```sh
+pip install Flask
+```
+
+# Project Structure
+
+single-use-token-protected-page/
+│
+├── app.py
+└── templates/
+├── protected.html
+└── invalid.html
+
+
