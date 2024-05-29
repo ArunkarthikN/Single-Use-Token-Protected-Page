@@ -3,12 +3,12 @@ This project is a simple Flask application that generates a unique, single-use t
 
 **Features**
 
-*Generate a unique token for accessing a protected page.
-*Invalidate the token after it has been used once.
-*Serve different pages for valid and invalid tokens.
+* Generate a unique token for accessing a protected page.
+* Invalidate the token after it has been used once.
+* Serve different pages for valid and invalid tokens.
 
 **Prerequisites**
-*Python 3.x
-*Flask
+* Python 3.x
+* Flask
 
 **Installation**
