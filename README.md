@@ -46,13 +46,13 @@ pip install Flask
 
 # Project Structure
 
-```go
-single-use-token-protected-page/
+```sh
+`single-use-token-protected-page/`
 │
-├── app.py
-└── templates/
-├── protected.html
-└── invalid.html
-```go
+├── `app.py`
+└── `templates/`
+    ├── `protected.html`
+    └── `invalid.html`
+```
 
 
