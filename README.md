@@ -55,4 +55,26 @@ pip install Flask
     └── `invalid.html`
 ```
 
+# Usage
+
+**1. Run the Flask application:**
+
+```sh
+python app.py
+```
+
+**2. Generate a unique link:**
+
+Open your browser and navigate to:
+
+```sh
+http://127.0.0.1:5000/generate_link
+```
+This will provide a unique link for the protected page.
+
+**3. Access the protected page:**
+
+Use the generated link to access the protected page. The link will be invalidated after use.
+
+
 
